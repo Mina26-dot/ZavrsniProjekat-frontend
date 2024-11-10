@@ -1,0 +1,40 @@
+.grades-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.grades-table th, .grades-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.grades-table th {
+    background-color: #850a85;
+    color: #fff7f7;
+}
+
+.grades-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.grades-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.grades-table td {
+    word-wrap: break-word;
+}
+

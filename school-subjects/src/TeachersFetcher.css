@@ -1,0 +1,43 @@
+
+ .teachers-container {
+    padding: 20px;
+}
+
+.actions-container {
+    
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.search-container {
+    margin-left: auto;
+}
+
+.search-input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.teachers-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.teachers-table th, .teachers-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  
+}
+
+.teachers-table th {
+    background-color: #850a85;
+    color: #fff7f7;
+}
+ button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+} 

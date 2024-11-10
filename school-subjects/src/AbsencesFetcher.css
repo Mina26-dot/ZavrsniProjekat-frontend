@@ -1,0 +1,39 @@
+.absences-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.absences-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.absences-table th, .absences-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.absences-table th {
+    background-color: #850a85;
+    color: #fff7f7;
+}
+
+.absences-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.absences-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.absences-table td {
+    word-wrap: break-word;
+}

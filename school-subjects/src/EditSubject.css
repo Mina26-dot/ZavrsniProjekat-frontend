@@ -1,0 +1,56 @@
+.edit-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.form-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.purple-button {
+    background-color: #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.purple-button:hover {
+    background-color: #5e005e;
+}
+
+.form-error {
+    color: red;
+    text-align: center;
+}
+
+.form-success {
+    color: green;
+    text-align: center;
+}

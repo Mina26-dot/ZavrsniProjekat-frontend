@@ -1,0 +1,41 @@
+.students-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.students-table th, .students-table td {
+    border: 1px solid #df93da;
+    padding: 12px;
+}
+
+.students-table th {
+    background-color: #850a85;
+    color: #fff7f7;
+}
+
+.students-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+    
+}
+
+.students-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.students-table td {
+    word-wrap: break-word;
+}
+

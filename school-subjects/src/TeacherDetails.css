@@ -1,0 +1,63 @@
+.teacher-details {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .teacher-details h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .teacher-details p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .actions-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actions-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-button {
+    background-color: #4CAF50;
+  }
+  
+  .update-button:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-button {
+    background-color: #f44336; 
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .error-message {
+    color: #f44336;
+    font-weight: bold;
+  }
+  
+  .loading-message {
+    font-size: 18px;
+    color: #333;
+  }
+  
